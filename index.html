@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Money Tracker</title>
+<meta name="description" content="Money Tracker: app personal para apuntar gastos e ingresos en Android y Windows.">
+<style>
+  :root { --bg: #f7f7f5; --fg: #1d1d1b; --muted: #5f5f5a; --accent: #1f7a5a; --card: #ffffff; --line: #e3e3de; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #161615; --fg: #ececea; --muted: #a3a39d; --accent: #5fc49b; --card: #20201e; --line: #33332f; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 2rem; margin: 0 0 4px; }
+  .lead { color: var(--muted); margin: 0 0 32px; }
+  section { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 20px 24px; margin-bottom: 16px; }
+  h2 { font-size: 1.1rem; margin: 0 0 8px; }
+  ul { margin: 0; padding-left: 20px; }
+  a { color: var(--accent); }
+  footer { color: var(--muted); font-size: 0.9rem; margin-top: 32px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Money Tracker</h1>
+  <p class="lead">App personal para apuntar gastos e ingresos, en Android y en Windows.</p>
+
+  <section>
+    <h2>Qué hace</h2>
+    <ul>
+      <li>Apuntar gastos e ingresos por categorías.</li>
+      <li>Gastos fijos, huchas de ahorro y avisos.</li>
+      <li>Ver en qué se va el dinero cada mes.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Sincronización con Google Drive (opcional)</h2>
+    <p>Si conectas tu cuenta de Google, la app guarda una copia de tus datos en una carpeta oculta de tu propio Google Drive para tenerlos iguales en el móvil y en el PC. Solo puede acceder a esa carpeta; no ve el resto de tus archivos.</p>
+  </section>
+
+  <footer>
+    <a href="privacidad.html">Política de privacidad</a>
+  </footer>
+</main>
+</body>
+</html>
